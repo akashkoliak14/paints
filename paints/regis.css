@@ -1,0 +1,41 @@
+﻿@import "compass/css3";
+
+$back-color: #F0F0F0;
+$green-border: #72B372;
+
+@mixin linear-gradient($top, $bottom) {
+  background: $top;
+  background: -webkit-linear-gradient($top, $bottom);
+	background: -moz-linear-gradient($top, $bottom);
+	background: -o-linear-gradient($top, $bottom);
+	background: linear-gradient($top, $bottom);
+}
+
+.main > div {
+  display: inline-block;
+  width: 49%;
+  margin-top: 10px;
+}
+.two{
+    .register {
+       border: none; 
+        
+        h3 {
+          border-bottom-color: #909090;
+        }
+    
+        .sep{
+          border-color: #909090;
+        }
+    }
+}
+.register {
+  	width: 500px;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border-radius: 10px;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  color: #444;
+  	box-shadow: 0 0 20px 0 #000000;
+    background-color: $back-color;
+}

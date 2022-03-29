@@ -1,0 +1,4 @@
+D:\paints\paints\bin\paints.dll
+D:\paints\paints\bin\paints.pdb
+D:\paints\paints\obj\Debug\paints.dll
+D:\paints\paints\obj\Debug\paints.pdb

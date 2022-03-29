@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind=".master.cs" Inherits="paints." %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         <div id="cont">
+       <div class="head1">
+       <h1>SAGAR PAINTS</h1>
+</div>
+    <div id="menu">
+    <ul>
+    <li><a href="sagar.aspx">HOME</a></li>
+    <li><a href="aboutus.aspx">ABOUT US</a></li>
+    <li><a href="contactus.aspx">CONTACT US</a></li>
+    <li><a href="#">SPORTS</a>
+    <ul>
+    <li><a href="football.aspx">FOOTBALL</a></li>
+    <li><a href="cricket.aspx">CRICKET</a></li>
+    <li><a href="basketball.aspx">BASKETBALL</a></li>
+    <li><a href="tenis.aspx">TENIS</a></li>
+    <li><a href="wollyball.aspx">WOLLYBALL</a></li>
+    </ul>
+     </li>
+    <li><a href="login.aspx">LOGIN</a></li>
+     <li><a href="registration.aspx">REGISTRATION</a></li>
+    </ul>
+    
+    
+    </div>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
