@@ -1,4 +1,2 @@
 # paints
-This sagar Paints website devloped in ASP.net it explore the verios paints option on online platform
-This sagar Paints website d
-
+I have developed a website demo using Html5,Css3,Asp.net,M.S Access,in this projects User can open pages like HomePage,AboutPage,Services,ControlPage,etc.
